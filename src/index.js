@@ -2,17 +2,28 @@ console.log('project is up')
 
 // 👉 TASK 1- Select the following elements from the DOM:
 
+// window.onload= function (){
+//     //ALL OF YOU PROGRAM HERE
+//     //ONE ASPECT OF EVEN DRIVEN PROGRAMMING
+//     // if you can't use the defer attribute, for example
+//     //or if you want to make sure code runs AFTER
+//     //the 'load' even fires on the tab
+//     //(which would mean the DOM is constructed)
+// }
+
+
+
 // A- BUTTONS
-const launchButton = null
-const confirmButton = null
-const cancelButton = null
+const launchButton = document.querySelector('#launchButton')
+const confirmButton = document.querySelector('#confirmButton')
+const cancelButton = document.querySelector('#cancelButton')
 
 // B- MESSAGES
-const successMessage = null
-const failureMessage = null
+const successMessage = document.querySelector('.success')
+const failureMessage = document.querySelector('.failure')
 
 // C- MODAL
-const modal = null
+const modal = document.querySelector('.module')
 
 
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
